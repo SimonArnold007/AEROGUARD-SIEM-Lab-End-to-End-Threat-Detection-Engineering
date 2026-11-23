@@ -33,7 +33,7 @@ aeroguard-siem-lab/
 │   ├── figure_1_execution.png # Execution policy bypass evidence
 │   └── figure_2_alert.png     # Wazuh Discover dashboard hit
 └── README.md                  # Project overview and runbook
-
+```
 
 Deployment Runbook
 To replicate this detection pipeline on an existing Wazuh Manager:
@@ -50,6 +50,8 @@ Step 1: Controlled Telemetry Generation (Windows 10)
 To safely validate the detection pipeline without introducing live malware into the lab, a custom PowerShell script (C:\Tools\sim-test.ps1) emits simulated aviation telemetry:
 
 AEROGUARD_EFB|admin|403|AUTH_FAIL|SIMULATED THREAT
+
+![Execution Policy Bypass Evidence](validation/ps1.jpeg)
 
 When Windows blocked execution under default security settings (PSSecurityException), a process-scoped bypass was applied to run the test safely while preserving the endpoint's persistent security baseline:
 
