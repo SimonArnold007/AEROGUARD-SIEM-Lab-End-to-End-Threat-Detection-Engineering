@@ -4,7 +4,8 @@
 This lab implements an air-gapped SIEM architecture, isolating detection capabilities from external threats. Telemetry flows from a hardened Windows 10 endpoint running Sysmon, feeding encrypted logs to an Ubuntu server running the Wazuh Manager and Suricata IDS. This setup validates end-to-end detection engineering by parsing proprietary aviation telemetry and triggering verified security alerts.
 
 ## Architecture Topology
-![Architecture Topology](architecture.jpg)
+![Architecture Topology](architecture.JPG)
+
 *Air-gapped network flow from the Windows 10 endpoint to the Ubuntu Wazuh server.*
 
 ### Telemetry Pipeline
