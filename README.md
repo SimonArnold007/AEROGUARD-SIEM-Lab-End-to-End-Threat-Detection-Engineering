@@ -19,7 +19,7 @@ This lab implements an air-gapped SIEM architecture, isolating detection capabil
 * **Operational Hardening:** Balancing strict endpoint security posture with localized, process-scoped execution policies.
 
 ## Repository Structure
-```text
+```
 aeroguard-siem-lab/
 ├── architecture/
 │   └── diagram.png            # Air-gapped network topology
