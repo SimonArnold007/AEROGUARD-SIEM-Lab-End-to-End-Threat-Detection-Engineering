@@ -59,3 +59,4 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
 Step 2: SIEM Ingestion & Rule Correlation (Wazuh)
 Following script execution, real-time telemetry ingestion was verified inside the Wazuh Discover dashboard. The dashboard confirms active communication from the Windows 10 endpoint (Agent ID 005) to the Ubuntu Wazuh Manager and displays correlated authentication failure alerts (rule.level: 5, syslog, access_control), proving the detection pipeline operates end-to-end across the air-gapped network.
+![Step 2: SIEM Ingestion & Rule Correlation (Wazuh)](SIEM.jpeg)
