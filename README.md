@@ -51,7 +51,7 @@ To safely validate the detection pipeline without introducing live malware into 
 
 AEROGUARD_EFB|admin|403|AUTH_FAIL|SIMULATED THREAT
 
-![Execution Policy Bypass Evidence](validation/ps1.jpeg)
+![Validation & Proof of Work](ps1.jpeg)
 
 When Windows blocked execution under default security settings (PSSecurityException), a process-scoped bypass was applied to run the test safely while preserving the endpoint's persistent security baseline:
 
