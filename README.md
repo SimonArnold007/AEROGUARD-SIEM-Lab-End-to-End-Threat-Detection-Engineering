@@ -9,7 +9,7 @@ This lab implements an air-gapped SIEM architecture, isolating detection capabil
 *Air-gapped network flow from the Windows 10 endpoint to the Ubuntu Wazuh server.*
 
 ## Telemetry Pipeline
-![Telemetry Pipeline](Aeroguarddecoder.JPG)
+![Telemetry Pipeline](Aeroguardecoder.JPG)
 
 * **Endpoint Collection (Windows 10 VM):** The Wazuh agent on the Windows 10 virtual machine collects Sysmon and Windows Security Event logs, shipping them encrypted over TCP/1514 to the Ubuntu server.
 * **Network Monitoring (Ubuntu Server VM):** Suricata monitors local virtual network traffic on the Ubuntu host, writing alerts to `eve.json`, which the Wazuh Logcollector ingests for correlation.
