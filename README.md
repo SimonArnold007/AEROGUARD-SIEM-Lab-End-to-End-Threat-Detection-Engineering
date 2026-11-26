@@ -66,3 +66,4 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
 Step 2: SIEM Ingestion & Rule Correlation (Ubuntu Server VM / Wazuh)
 Following the simulated log test, real-time detection was verified inside the Wazuh Discover dashboard (aeroguard query) hosted on the Ubuntu VM. The alert matches rule 100100 (rule.level: 7, groups aeroguard, telemetry, MITRE T1078) with parsed fields data.src_user: admin, data.error_code: 403, data.action_taken: AUTH_FAIL, and data.reason: SIMULATED THREAT, confirming end-to-end decoding and correlation.
+![Aeroguard](https://github.com/SimonArnold007/AEROGUARD-SIEM-Lab-End-to-End-Threat-Detection-Engineering/blob/main/Wazuhagentaeroguard.jpeg)
