@@ -12,6 +12,8 @@ This lab implements an air-gapped SIEM architecture, isolating detection capabil
 ![Aeroguard Decoder](https://github.com/SimonArnold007/AEROGUARD-SIEM-Lab-End-to-End-Threat-Detection-Engineering/blob/main/Aeroguardecoder.jpeg)
 ![Local](https://github.com/SimonArnold007/AEROGUARD-SIEM-Lab-End-to-End-Threat-Detection-Engineering/blob/main/Local1.jpeg)
 ![Local2](https://github.com/SimonArnold007/AEROGUARD-SIEM-Lab-End-to-End-Threat-Detection-Engineering/blob/main/Local2.jpeg)
+![PS1](https://github.com/SimonArnold007/AEROGUARD-SIEM-Lab-End-to-End-Threat-Detection-Engineering/blob/main/PS1.jpeg)
+
 
 
 * **Endpoint Collection (Windows 10 VM):** The Wazuh agent on the Windows 10 virtual machine collects Sysmon and Windows Security Event logs, shipping them encrypted over TCP/1514 to the Ubuntu server.
