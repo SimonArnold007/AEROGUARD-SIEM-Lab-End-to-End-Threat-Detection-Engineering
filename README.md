@@ -14,7 +14,7 @@ This lab implements an air-gapped SIEM architecture, isolating detection capabil
 * **Network Monitoring (Ubuntu Server VM):** Suricata monitors local virtual network traffic on the Ubuntu host, writing alerts to `eve.json`, which the Wazuh Logcollector ingests for correlation.
 * **Custom Decoding & Correlation:** A custom XML decoder (`config/aeroguard_decoder.xml`) parses proprietary `AEROGUARD_EFB` telemetry streams into structured fields (`src_user`, `error_code`, `action_taken`, `reason`), allowing correlation rules (`config/local_rules.xml`) to trigger alerts on authentication anomalies (`rule.id: 100100`, `rule.level: 7`, MITRE `T1078`).
 
-![Telemetry Pipeline](Aeroguard Decoder.jpeg)
+![Telemetry Pipeline](Aeroguard Decoder.JPG)
 
 ## Key Takeaways
 
