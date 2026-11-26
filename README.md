@@ -10,7 +10,7 @@ This lab implements an air-gapped SIEM architecture, isolating detection capabil
 
 ## Telemetry Pipeline
 ![Aeroguard Decoder](https://github.com/SimonArnold007/AEROGUARD-SIEM-Lab-End-to-End-Threat-Detection-Engineering/blob/main/Aeroguardecoder.jpeg)
-![Local](
+![Local](https://github.com/SimonArnold007/AEROGUARD-SIEM-Lab-End-to-End-Threat-Detection-Engineering/blob/main/Local1.jpeg)
 
 * **Endpoint Collection (Windows 10 VM):** The Wazuh agent on the Windows 10 virtual machine collects Sysmon and Windows Security Event logs, shipping them encrypted over TCP/1514 to the Ubuntu server.
 * **Network Monitoring (Ubuntu Server VM):** Suricata monitors local virtual network traffic on the Ubuntu host, writing alerts to `eve.json`, which the Wazuh Logcollector ingests for correlation.
